@@ -91,39 +91,23 @@ export const assets = {
     lesson_icon
 }
 
+// ---------------------------------------------------------
+// EDUCATOR
+// ---------------------------------------------------------
+
 export const dummyEducatorData = {
     "_id": "675ac1512100b91a6d9b8b24",
-    "name": "GreatStack",
-    "email": "user.greatstack@gmail.com",
-    "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yclFkaDBOMmFqWnBoTTRBOXZUanZxVlo0aXYifQ",
+    "name": "Alex Carter",
+    "email": "alex.carter.educator@example.com",
+    "imageUrl": "https://img.clerk.com/educator_img_01",
     "createdAt": "2024-12-12T10:56:17.930Z",
     "updatedAt": "2024-12-12T10:56:17.930Z",
     "__v": 0
-}
+};
 
-export const dummyTestimonial = [
-    {
-        name: 'Donald Jackman',
-        role: 'SWE 1 @ Amazon',
-        image: assets.profile_img_1,
-        rating: 5,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
-    },
-    {
-        name: 'Richard Nelson',
-        role: 'SWE 2 @ Samsung',
-        image: assets.profile_img_2,
-        rating: 4,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
-    },
-    {
-        name: 'James Washington',
-        role: 'SWE 2 @ Google',
-        image: assets.profile_img_3,
-        rating: 4.5,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
-    },
-];
+// ---------------------------------------------------------
+// DASHBOARD DATA
+// ---------------------------------------------------------
 
 export const dummyDashboardData = {
     "totalEarnings": 707.38,
@@ -131,102 +115,109 @@ export const dummyDashboardData = {
         {
             "courseTitle": "Introduction to JavaScript",
             "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+                "_id": "user_A12bzXP92ksL001aa",
+                "name": "Liam Edwards",
+                "imageUrl": "https://randomuser.me/api/portraits/men/32.jpg"
             }
         },
         {
             "courseTitle": "Advanced Python Programming",
             "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+                "_id": "user_B77opQW55klJ772bb",
+                "name": "Nora Williams",
+                "imageUrl": "https://randomuser.me/api/portraits/women/44.jpg"
             }
         },
         {
             "courseTitle": "Web Development Bootcamp",
             "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+                "_id": "user_C91lmRT20ppF188cc",
+                "name": "Ethan Brooks",
+                "imageUrl": "https://randomuser.me/api/portraits/men/68.jpg"
             }
         },
         {
             "courseTitle": "Data Science with Python",
             "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+                "_id": "user_D44qweMM72rtF552dd",
+                "name": "Chloe Martinez",
+                "imageUrl": "https://randomuser.me/api/portraits/women/65.jpg"
             }
         },
         {
             "courseTitle": "Cybersecurity Basics",
             "student": {
-                "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-                "name": "Great Stack",
-                "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+                "_id": "user_E09ptLA33zzW901ee",
+                "name": "Owen Mitchell",
+                "imageUrl": "https://randomuser.me/api/portraits/men/15.jpg"
             }
         }
     ],
     "totalCourses": 8
-}
+};
+
+// ---------------------------------------------------------
+// STUDENT ENROLLMENTS
+// ---------------------------------------------------------
 
 export const dummyStudentEnrolled = [
     {
         "student": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "name": "GreatStack",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "_id": "user_A12bzXP92ksL001aa",
+            "name": "Liam Edwards",
+            "imageUrl": "https://randomuser.me/api/portraits/men/32.jpg"
         },
         "courseTitle": "Introduction to JavaScript",
-        "purchaseDate": "2024-12-20T08:39:55.509Z"
+        
     },
     {
         "student": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "name": "GreatStack",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "_id": "user_B77opQW55klJ772bb",
+            "name": "Nora Williams",
+            "imageUrl": "https://randomuser.me/api/portraits/women/44.jpg"
         },
         "courseTitle": "Introduction to JavaScript",
-        "purchaseDate": "2024-12-20T08:59:49.964Z"
+        
     },
     {
         "student": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "name": "GreatStack",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "_id": "user_C91lmRT20ppF188cc",
+            "name": "Ethan Brooks",
+            "imageUrl": "https://randomuser.me/api/portraits/men/68.jpg"
         },
         "courseTitle": "Advanced Python Programming",
-        "purchaseDate": "2024-12-20T11:03:42.931Z"
+        
     },
     {
         "student": {
-            "_id": "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "name": "GreatStack",
-            "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
+            "_id": "user_D44qweMM72rtF552dd",
+            "name": "Chloe Martinez",
+            "imageUrl": "https://randomuser.me/api/portraits/women/65.jpg"
         },
         "courseTitle": "Web Development Bootcamp",
-        "purchaseDate": "2024-12-20T11:04:48.798Z"
+        
     }
-]
+];
+
+// ---------------------------------------------------------
+// ALL COURSES (NO PRICE, NO DISCOUNT)
+// ---------------------------------------------------------
 
 export const dummyCourses = [
     {
-        "_id": "605c72efb3f1c2b1f8e4e1a1",
+        "_id": "course_js101_001",
         "courseTitle": "Introduction to JavaScript",
-        "courseDescription": "<h2>Learn the Basics of JavaScript</h2><p>JavaScript is a versatile programming language that powers the web. In this course, you will learn the fundamentals of JavaScript, including syntax, data types, and control structures.</p><p>This course is perfect for beginners who want to start their journey in web development. By the end of this course, you will be able to create interactive web pages and understand the core concepts of JavaScript.</p><ul><li>Understand the basics of programming</li><li>Learn how to manipulate the DOM</li><li>Create dynamic web applications</li></ul>",
-        "coursePrice": 49.99,
+        "courseDescription":
+            "<h2>Learn JavaScript Fundamentals</h2><p>JavaScript powers modern websites...</p>",
         "isPublished": true,
-        "discount": 20,
         "courseContent": [
             {
-                "chapterId": "chapter1",
+                "chapterId": "js_ch1",
                 "chapterOrder": 1,
-                "chapterTitle": "Getting Started with JavaScript",
+                "chapterTitle": "Getting Started",
                 "chapterContent": [
                     {
-                        "lectureId": "lecture1",
+                        "lectureId": "js_lc1",
                         "lectureTitle": "What is JavaScript?",
                         "lectureDuration": 16,
                         "lectureUrl": "https://youtu.be/CBWnBi-awSA",
@@ -234,33 +225,10 @@ export const dummyCourses = [
                         "lectureOrder": 1
                     },
                     {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Setting Up Your Environment",
+                        "lectureId": "js_lc2",
+                        "lectureTitle": "Environment Setup",
                         "lectureDuration": 19,
                         "lectureUrl": "https://youtu.be/4l87c2aeB4I",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Variables and Data Types",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "Understanding Variables",
-                        "lectureDuration": 20,
-                        "lectureUrl": "https://youtu.be/pZQeBJsGoDQ",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Data Types in JavaScript",
-                        "lectureDuration": 10,
-                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -269,37 +237,38 @@ export const dummyCourses = [
         ],
         "educator": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
-            "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+            "user_A12bzXP92ksL001aa",
+            "user_B77opQW55klJ772bb",
+            "user_D44qweMM72rtF552dd"
         ],
         "courseRatings": [
             {
-                "userId": "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+                "userId": "user_B77opQW55klJ772bb",
                 "rating": 5,
-                "_id": "6773e37360cb0ab974342314"
+                "_id": "rate_js001"
             }
         ],
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T04:47:44.701Z",
-        "__v": 4,
-        "courseThumbnail": "https://img.youtube.com/vi/CBWnBi-awSA/maxresdefault.jpg"
+        "__v": 1,
+        "courseThumbnail":
+            "https://images.unsplash.com/photo-1587620962725-abab7fe55159"
     },
+
     {
-        "_id": "675ac1512100b91a6d9b8b24",
+        "_id": "course_py201_002",
         "courseTitle": "Advanced Python Programming",
-        "courseDescription": "<h2>Deep Dive into Python Programming</h2><p>This course is designed for those who have a basic understanding of Python and want to take their skills to the next level. You will explore advanced topics such as decorators, generators, and context managers.</p><p>By the end of this course, you will be able to write efficient and clean Python code, and understand how to leverage Python's powerful features for real-world applications.</p><ul><li>Master advanced data structures</li><li>Implement object-oriented programming concepts</li><li>Work with libraries and frameworks</li></ul>",
-        "coursePrice": 79.99,
+        "courseDescription":
+            "<h2>Deep Dive into Python</h2><p>Decorators, generators, advanced OOP...</p>",
         "isPublished": true,
-        "discount": 15,
         "courseContent": [
             {
-                "chapterId": "chapter1",
+                "chapterId": "py_ch1",
                 "chapterOrder": 1,
-                "chapterTitle": "Advanced Data Structures",
+                "chapterTitle": "Advanced Structures",
                 "chapterContent": [
                     {
-                        "lectureId": " lecture1",
+                        "lectureId": "py_lc1",
                         "lectureTitle": "Lists and Tuples",
                         "lectureDuration": 720,
                         "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
@@ -307,7 +276,7 @@ export const dummyCourses = [
                         "lectureOrder": 1
                     },
                     {
-                        "lectureId": "lecture2",
+                        "lectureId": "py_lc2",
                         "lectureTitle": "Dictionaries and Sets",
                         "lectureDuration": 850,
                         "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
@@ -315,446 +284,142 @@ export const dummyCourses = [
                         "lectureOrder": 2
                     }
                 ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Object-Oriented Programming",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "Classes and Objects",
-                        "lectureDuration": 900,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Inheritance and Polymorphism",
-                        "lectureDuration": 950,
-                        "lectureUrl": "https://youtu.be/HdLIMoQkXFA",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
             }
         ],
         "educator": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
-            "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+            "user_C91lmRT20ppF188cc",
+            "user_E09ptLA33zzW901ee"
         ],
         "courseRatings": [
             {
-                "userId": "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+                "userId": "user_C91lmRT20ppF188cc",
                 "rating": 5,
-                "_id": "6776369244daad0f313d81a9"
+                "_id": "rate_py002"
             }
         ],
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:47:54.446Z",
-        "__v": 3,
-        "courseThumbnail": "https://img.youtube.com/vi/HdLIMoQkXFA/maxresdefault.jpg"
+        "__v": 1,
+        "courseThumbnail":
+            "https://img.youtube.com/vi/_uQrJ0TkZlc/maxresdefault.jpg"
     },
+
     {
-        "_id": "605c72efb3f1c2b1f8e4e1ae",
+        "_id": "course_cy301_003",
         "courseTitle": "Cybersecurity Basics",
-        "courseDescription": "<h2>Protect Systems and Networks</h2><p>Cybersecurity is critical in today's digital age. This course introduces the fundamentals of cybersecurity, including threat analysis, ethical hacking, and secure programming practices.</p><p>By the end of this course, you will understand how to identify vulnerabilities and implement security measures effectively.</p><ul><li>Understand security protocols</li><li>Learn about encryption techniques</li><li>Conduct basic penetration testing</li></ul>",
-        "coursePrice": 69.99,
+        "courseDescription":
+            "<h2>Protect Systems and Networks</h2><p>Threats, vulnerabilities, secure coding...</p>",
         "isPublished": true,
-        "discount": 15,
-        "courseContent": [
-            {
-                "chapterId": "chapter1",
-                "chapterOrder": 1,
-                "chapterTitle": "Introduction to Cybersecurity",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture1",
-                        "lectureTitle": "What is Cybersecurity?",
-                        "lectureDuration": 10,
-                        "lectureUrl": "https://youtu.be/samplelink5",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Types of Cyber Threats",
-                        "lectureDuration": 18,
-                        "lectureUrl": "https://youtu.be/samplelink6",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Basic Security Practices",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "Password Management",
-                        "lectureDuration": 15,
-                        "lectureUrl": "https://youtu.be/samplelink7",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Network Security Essentials",
-                        "lectureDuration": 20,
-                        "lectureUrl": "https://youtu.be/samplelink8",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            }
-        ],
+        "courseContent": [],
         "educator": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
-            "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+            "user_E09ptLA33zzW901ee",
+            "user_A12bzXP92ksL001aa"
         ],
         "courseRatings": [],
         "createdAt": "2024-12-27T11:30:00.000Z",
         "updatedAt": "2024-12-31T04:14:49.773Z",
-        "__v": 2,
-        "courseThumbnail": "https://img.youtube.com/vi/jZFaMEqEqEQ/maxresdefault.jpg"
+        "__v": 1,
+        "courseThumbnail":
+            "https://images.unsplash.com/photo-1591696205602-2f950c417cb9"
     },
+
     {
-        "_id": "605c72efb3f1c2b1f8e4e1a7",
+        "_id": "course_web401_004",
         "courseTitle": "Web Development Bootcamp",
-        "courseDescription": "<h2>Become a Full-Stack Web Developer</h2><p>This comprehensive bootcamp covers everything you need to know to become a full-stack web developer. From HTML and CSS to JavaScript and backend technologies, this course is designed to take you from beginner to job-ready.</p><p>Throughout the course, you will work on real-world projects, build a portfolio, and gain the skills necessary to succeed in the tech industry.</p><ul><li>Learn front-end and back-end development</li><li>Build responsive and dynamic web applications</li><li>Understand databases and server-side programming</li></ul>",
-        "coursePrice": 99.99,
+        "courseDescription":
+            "<h2>Become a Full-Stack Developer</h2><p>HTML, CSS, JS, backend...</p>",
         "isPublished": true,
-        "discount": 25,
-        "courseContent": [
-            {
-                "chapterId": "chapter1",
-                "chapterOrder": 1,
-                "chapterTitle": "HTML & CSS Basics",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture1",
-                        "lectureTitle": "Introduction to HTML",
-                        "lectureDuration": 600,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Styling with CSS",
-                        "lectureDuration": 720,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "JavaScript Fundamentals",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "JavaScript Basics",
-                        "lectureDuration": 800,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "DOM Manipulation",
-                        "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            }
-        ],
+        "courseContent": [],
         "educator": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
-            "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+            "user_D44qweMM72rtF552dd",
+            "user_B77opQW55klJ772bb"
         ],
         "courseRatings": [],
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2024-12-31T05:31:27.290Z",
-        "__v": 2,
-        "courseThumbnail": "https://img.youtube.com/vi/lpx2zFkapIk/maxresdefault.jpg"
+        "__v": 1,
+        "courseThumbnail":
+            "https://images.unsplash.com/photo-1521790361543-f645cf042ec4"
     },
+
     {
-        "_id": "605c72efb3f1c2b1f8e4e1ac",
+        "_id": "course_cloud501_005",
         "courseTitle": "Cloud Computing Essentials",
-        "courseDescription": "<h2>Master Cloud Fundamentals</h2><p>Learn the foundations of cloud computing and explore popular cloud platforms like AWS, Azure, and Google Cloud. This course is ideal for IT professionals and developers looking to transition to cloud-based solutions.</p><p>By the end of this course, you will understand cloud services, deployment models, and best practices for using cloud resources efficiently.</p><ul><li>Understand cloud architecture</li><li>Learn to work with AWS, Azure, and GCP</li><li>Explore serverless computing and storage solutions</li></ul>",
-        "coursePrice": 69.99,
+        "courseDescription":
+            "<h2>Master Cloud Infrastructure</h2><p>AWS, Azure, GCP basics...</p>",
         "isPublished": true,
-        "discount": 20,
-        "courseContent": [
-            {
-                "chapterId": "chapter1",
-                "chapterOrder": 1,
-                "chapterTitle": "Cloud Fundamentals",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture1",
-                        "lectureTitle": "What is Cloud Computing?",
-                        "lectureDuration": 600,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Cloud Service Models",
-                        "lectureDuration": 720,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Exploring Cloud Platforms",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "AWS Basics",
-                        "lectureDuration": 800,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Introduction to Google Cloud",
-                        "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            }
-        ],
+        "courseContent": [],
         "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
-        ],
+        "enrolledStudents": ["user_C91lmRT20ppF188cc"],
         "courseRatings": [],
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2024-12-31T05:32:55.357Z",
         "__v": 1,
-        "courseThumbnail": "https://img.youtube.com/vi/0yboGn8errU/maxresdefault.jpg"
+        "courseThumbnail":
+            "https://images.unsplash.com/photo-1493217465235-252dd9c0d632"
     },
+
     {
-        "_id": "605c72efb3f1c2b1f8e4e1ad",
+        "_id": "course_ds601_006",
         "courseTitle": "Data Science with Python",
-        "courseDescription": "<h2>Start Your Data Science Journey</h2><p>Data Science is one of the most in-demand fields in the world. This course teaches you the essentials of data analysis, visualization, and machine learning using Python. Learn libraries like Pandas, NumPy, Matplotlib, and Scikit-learn.</p><p>By the end of this course, you will be equipped to work on real-world data projects and gain insights from data.</p><ul><li>Data cleaning and preprocessing</li><li>Exploratory Data Analysis (EDA)</li><li>Build predictive models</li></ul>",
-        "coursePrice": 89.99,
+        "courseDescription":
+            "<h2>Start Your Data Science Journey</h2>",
         "isPublished": true,
-        "discount": 20,
-        "courseContent": [
-            {
-                "chapterId": "chapter1",
-                "chapterOrder": 1,
-                "chapterTitle": "Python for Data Science",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture1",
-                        "lectureTitle": "Python Basics",
-                        "lectureDuration": 30,
-                        "lectureUrl": "https://youtu.be/samplelink1",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Working with NumPy",
-                        "lectureDuration": 25,
-                        "lectureUrl": "https://youtu.be/samplelink2",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Data Visualization",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "Introduction to Matplotlib",
-                        "lectureDuration": 20,
-                        "lectureUrl": "https://youtu.be/samplelink3",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Advanced Visualizations with Seaborn",
-                        "lectureDuration": 25,
-                        "lectureUrl": "https://youtu.be/samplelink4",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            }
-        ],
+        "courseContent": [],
         "educator": "675ac1512100b91a6d9b8b24",
         "enrolledStudents": [
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
-            "user_2qQlvXyr02B4Bq6hT0Gvaa5fT9V",
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
+            "user_C91lmRT20ppF188cc",
+            "user_A12bzXP92ksL001aa",
+            "user_D44qweMM72rtF552dd"
         ],
         "courseRatings": [
             {
-                "userId": "user_2qjlgkAqIMpiR2flWIRzvWKtE0w",
+                "userId": "user_D44qweMM72rtF552dd",
                 "rating": 5,
-                "_id": "6773acf160cb0ab974342248"
+                "_id": "rate_ds006"
             }
         ],
         "createdAt": "2024-12-27T10:00:00.000Z",
         "updatedAt": "2024-12-31T09:57:48.992Z",
-        "__v": 3,
-        "courseThumbnail": "https://img.youtube.com/vi/E4znbZgUWzA/maxresdefault.jpg"
+        "__v": 1,
+        "courseThumbnail":
+            "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb"
     },
+
     {
-        "_id": "605c72efb3f1c2b1f8e4e1aa",
+        "_id": "course_ml701_007",
         "courseTitle": "Data Science and Machine Learning",
-        "courseDescription": "<h2>Unlock the Power of Data</h2><p>This course provides a comprehensive introduction to data science and machine learning. You will learn how to analyze data, build predictive models, and apply machine learning algorithms to real-world problems.</p><p>By the end of this course, you will have a solid understanding of data manipulation, visualization, and machine learning techniques, enabling you to make data-driven decisions.</p><ul><li>Understand data analysis and visualization</li><li>Learn machine learning algorithms and their applications</li><li>Work with popular data science libraries like Pandas and Scikit-Learn</li></ul>",
-        "coursePrice": 89.99,
+        "courseDescription":
+            "<h2>Unlock Machine Learning Capabilities</h2>",
         "isPublished": true,
-        "discount": 30,
-        "courseContent": [
-            {
-                "chapterId": "chapter1",
-                "chapterOrder": 1,
-                "chapterTitle": "Introduction to Data Science",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture1",
-                        "lectureTitle": "What is Data Science?",
-                        "lectureDuration": 600,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Data Collection and Cleaning",
-                        "lectureDuration": 720,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Machine Learning Basics",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "Supervised vs Unsupervised Learning",
-                        "lectureDuration": 800,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Building Your First Model",
-                        "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            }
-        ],
+        "courseContent": [],
         "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
-        ],
+        "enrolledStudents": ["user_E09ptLA33zzW901ee"],
         "courseRatings": [],
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:53:59.753Z",
         "__v": 1,
-        "courseThumbnail": "https://img.youtube.com/vi/631lFJdQvoo/maxresdefault.jpg"
+        "courseThumbnail":
+            "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=600&q=80"
     },
+
     {
-        "_id": "605c72efb3f1c2b1f8e4e1ab",
+        "_id": "course_cy802_008",
         "courseTitle": "Introduction to Cybersecurity",
-        "courseDescription": "<h2>Protect the Digital World</h2><p>This course covers the essentials of cybersecurity, including understanding threats, vulnerabilities, and how to secure systems against cyber-attacks. Ideal for beginners, this course will prepare you for a career in cybersecurity.</p><p>By the end of this course, you will be able to identify and mitigate risks, implement security best practices, and understand the fundamentals of encryption and network security.</p><ul><li>Understand common cybersecurity threats</li><li>Learn about encryption and secure communication</li><li>Explore tools for penetration testing</li></ul>",
-        "coursePrice": 59.99,
+        "courseDescription":
+            "<h2>Protect the Digital World</h2>",
         "isPublished": true,
-        "discount": 15,
-        "courseContent": [
-            {
-                "chapterId": "chapter1",
-                "chapterOrder": 1,
-                "chapterTitle": "Cybersecurity Basics",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture1",
-                        "lectureTitle": "Introduction to Cybersecurity",
-                        "lectureDuration": 700,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture2",
-                        "lectureTitle": "Understanding Cyber Threats",
-                        "lectureDuration": 750,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            },
-            {
-                "chapterId": "chapter2",
-                "chapterOrder": 2,
-                "chapterTitle": "Network Security Fundamentals",
-                "chapterContent": [
-                    {
-                        "lectureId": "lecture3",
-                        "lectureTitle": "Securing Networks",
-                        "lectureDuration": 800,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": true,
-                        "lectureOrder": 1
-                    },
-                    {
-                        "lectureId": "lecture4",
-                        "lectureTitle": "Firewalls and VPNs",
-                        "lectureDuration": 850,
-                        "lectureUrl": "https://youtu.be/-HeadgoqJ7A",
-                        "isPreviewFree": false,
-                        "lectureOrder": 2
-                    }
-                ]
-            }
-        ],
+        "courseContent": [],
         "educator": "675ac1512100b91a6d9b8b24",
-        "enrolledStudents": [
-            "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
-        ],
+        "enrolledStudents": ["user_B77opQW55klJ772bb"],
         "courseRatings": [],
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:56:13.208Z",
         "__v": 1,
-        "courseThumbnail": "https://img.youtube.com/vi/WbV3zRgpw_E/maxresdefault.jpg"
+        "courseThumbnail":
+            "https://images.unsplash.com/photo-1556157382-97eda2d62296"
     }
-]
+];

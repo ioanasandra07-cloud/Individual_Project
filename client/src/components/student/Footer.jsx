@@ -6,8 +6,8 @@ const Footer = () => {
     <footer className='bg-orange-900 md:px-36 text-left w-full mt-10'>
       <div className='flex flex-col md:flex-row items-start px-8 md:px-0 justify-center gap-10 md:gap-32 py-10 border-b border-white/30'>
         <div className='flex flex-col md:items-start items-center w-full'>
-          <img src={assets.logo_dark} alt="logo" />
-          <p className='mt-6 text-center md:text-left text-sm text-white/80'>alt scris pe care il inlocuiesti tu caca maca</p>
+   <img src={assets.logo_dark} className="w-40" />
+          <p className='mt-6 text-center md:text-left text-sm text-white/80'>Where knowledge meets opportunity.</p>
         </div>
         <div className='flex flex-col md:items-start items-center w-full'>
           <h2 className='font-semibold text-white mb-5'>Company</h2>
